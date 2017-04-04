@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="blog-styles.css"/>
+    <link rel="stylesheet" type="text/css" href="pop-up-style.css">
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div id="pop-up-wrapper">
+        <div id="pop-up-send-form">
+            <span id="close">x</span>
+            <h2>Оставьте заявку</h2>
+            <span>Мы свяжемся с вами в ближайшее время</span>
+            <form method="post" action="#" class="pop-up-form">
+                <input type="text" name="Your name"placeholder="Ваше имя" class="pop-up-first-row">
+                <input type="email" name="Your mail" placeholder="Email" class="pop-up-first-row">
+                <input type="tel" name="Telephone number" placeholder="Номер телефона" class="pop-up-telephone">
+                <textarea name="text" placeholder="Текст сообщения" rows="5" cols="48" class="pop-up-textarea"></textarea>
+                <input type="submit" name="submit-btn" value="Отправить" class="pop-up-submit-btn">
+            </form>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <!-- begin header  -->
+        <header class="header">
+            <div class="container container--indent">
+                <a href="http://localhost:63342/test.local/rideks/Ridex/Main/index.html?_ijt=bs1tp13ad47im4gkgvu9kosoo" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
+
+                <!-- begin nav-toggle  -->
+                <div class="nav-toggle">
+                    <button class="btn-menu">
+                        <span class="btn-menu__line"></span>
+                        <span class="btn-menu__line"></span>
+                        <span class="btn-menu__line"></span>
+                    </button>
+                </div>
+                <!-- end nav-toggle -->
+
+                <!-- begin nav  -->
+                <nav class="nav dropdown-item">
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">О компании</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Портфолио</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Наши УСЛУГИ</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <!-- end nav -->
+
+                <!-- begin header__social  -->
+                <div class="header__social dropdown-item">
+                    <a href="#"><img src="images/social-link1.png" alt="social-link"></a>
+                    <a href="#"><img src="images/social-link2.png" alt="social-link"></a>
+                    <a href="#"><img src="images/social-link3.png" alt="social-link"></a>
+                    <a href="#"><img src="images/social-link4.png" alt="social-link"></a>
+                    <a href="#"><img src="images/social-link5.png" alt="social-link"></a>
+                </div>
+                <!-- end header__social -->
+
+                <a href="#modal" id="pop-up" class="header__btn btn-modal dropdown-item">Оставить заявку</a>
+                <div class="numbers">
+                    <a href="tel:+38(066)7-111-999"><span>+38(066)</span>7-111-999</a><br>
+                    <a href="tel:+7(499)1-123-224"><span>+7(499)</span>1-123-224</a>
+                </div>
+            </div>
+        </header>
+        <div id="container" class="clearfix">
+            <h1>Блог</h1>
+            <a href="http://localhost:63342/test.local/rideks/Ridex/Main/index.html?_ijt=2tdvg8uk354ftifjvq60q9t9lp" class="main-link">На главную</a>
+            <a href=""><img src="images/living-room.jpg" alt="A living-room"/></a>
+            <span class="date">14.02.2017</span>
+            <p class="description">Гениальный способ почувствовать себя настоящим инженером</p>
+            <div class="line"></div>
+            <a href=""><img src="images/guitar.jpg" alt="The guitar"/></a>
+            <span class="date">12.02.2017</span>
+            <p class="description">Уроки по созданию профессиональных 3D моделей музыкальных инструментов</p>
+            <div class="line"></div>
+            <a href=""><img src="images/man.jpg" alt="A man"/></a>
+            <span class="date">11.02.2017</span>
+            <p class="description">Профессиональные иллюстрации для вашего сайта.Как и почему?</p>
+            <a href="#modal" id="showMore-button">Показать еще</a>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <p id="phone-contact" class="numbers">Свяжитесь с нами по телефону: <a href="tel:+38(066)7-111-999"><span>+38(066)</span>7-111-999</a>
+                        <a href="tel:+7(499)1-123-224"><span>+7(499)</span>1-123-224</a></p>
+
+                    <!-- begin footer__social  -->
+                    <div class="footer__social">
+                        <p>Либо в социальных сетях:</p>
+
+                        <a href="#"><img src="images/social-link1.png" alt="social-link"></a>
+                        <a href="#"><img src="images/social-link2.png" alt="social-link"></a>
+                        <a href="#"><img src="images/social-link3.png" alt="social-link"></a>
+                        <a href="#"><img src="images/social-link4.png" alt="social-link"></a>
+                        <a href="#"><img src="images/social-link5.png" alt="social-link"></a>
+                    </div>
+                    <!-- end footer__social -->
+
+                    <small>© Rideks.ru, 2017</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script rel="text/javascript" src="blog-js.js"></script>
+    <script>
+        document.getElementById('pop-up').onclick = function() {
+            document.getElementById('pop-up-wrapper').style.display = 'block';
+            document.getElementById("pop-up-send-form").style.display = "block";
+        };
+        document.getElementById("close").onclick = function() {
+            document.getElementById("pop-up-send-form").style.display = "none";
+            document.getElementById('pop-up-wrapper').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
