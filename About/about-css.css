@@ -3798,3 +3798,15 @@ h2 {
         }
     }
 }
+#pop-up-send-form h2 {
+    color: #ffcc00;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#pop-up-send-form span {
+    color: white;
+    display: block;
+    text-align: center;
+}
