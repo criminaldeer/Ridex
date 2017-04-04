@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="contacts-style.css"/>
+    <link rel="stylesheet" type="text/css" href="pop-up-style.css">
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="pop-up-wrapper">
+        <div id="pop-up-send-form">
+            <span id="close">x</span>
+            <h2>Оставьте заявку</h2>
+            <span>Мы свяжемся с вами в ближайшее время</span>
+            <form method="post" action="#" class="pop-up-form">
+                <input type="text" name="Your name"placeholder="Ваше имя" class="pop-up-first-row">
+                <input type="email" name="Your mail" placeholder="Email" class="pop-up-first-row">
+                <input type="tel" name="Telephone number" placeholder="Номер телефона" class="pop-up-telephone">
+                <textarea name="text" placeholder="Текст сообщения" rows="5" cols="48" class="pop-up-textarea"></textarea>
+                <input type="submit" name="submit-btn" value="Отправить" class="pop-up-submit-btn">
+            </form>
+        </div>
+    </div>
+<div class="wrapper">
+
+    <!-- begin header  -->
+    <header class="header">
+        <div class="container container--indent">
+            <a href="http://localhost:63342/test.local/rideks/Ridex/Main/index.html?_ijt=bs1tp13ad47im4gkgvu9kosoo" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
+
+            <!-- begin nav-toggle  -->
+            <div class="nav-toggle">
+                <button class="btn-menu">
+                    <span class="btn-menu__line"></span>
+                    <span class="btn-menu__line"></span>
+                    <span class="btn-menu__line"></span>
+                </button>
+            </div>
+            <!-- end nav-toggle -->
+
+            <!-- begin nav  -->
+            <nav class="nav dropdown-item">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">О компании</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Портфолио</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Наши УСЛУГИ</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- end nav -->
+
+            <!-- begin header__social  -->
+            <div class="header__social dropdown-item">
+                <a href="#"><img src="images/social-link1.png" alt="social-link"></a>
+                <a href="#"><img src="images/social-link2.png" alt="social-link"></a>
+                <a href="#"><img src="images/social-link3.png" alt="social-link"></a>
+                <a href="#"><img src="images/social-link4.png" alt="social-link"></a>
+                <a href="#"><img src="images/social-link5.png" alt="social-link"></a>
+            </div>
+            <!-- end header__social -->
+
+            <a href="#modal" id="pop-up" class="header__btn btn-modal dropdown-item">Оставить заявку</a>
+            <div class="numbers">
+                <a href="tel:+38(066)7-111-999"><span>+38(066)</span>7-111-999</a><br>
+                <a href="tel:+7(499)1-123-224"><span>+7(499)</span>1-123-224</a>
+            </div>
+        </div>
+    </header>
+    <div id="content" class="clearfix">
+        <div class="general">
+            <h1>Контакты</h1>
+            <a href="http://localhost:63342/test.local/rideks/Ridex/Main/index.html?_ijt=2tdvg8uk354ftifjvq60q9t9lp" class="main-link">На главную</a>
+            <p class="description">Мы всегда готовы проконсультировать вас по любым интересующим вопросам. Наши менеджеры обучены и готовы  ответить
+            на любые, самые сложные технические вопросы. Таким образом, дальнейшее развитие различных форм деятельности
+            требуют определения и уточнения дальнейших направлений развития. Равным образом постоянный количественный рост
+            и сфера нашей активности позволяет выполнять важные задания по разработке системы обучения кадров, соответствует
+            насущным потребностям.</p>
+        </div>
+        <div class="contacts">
+            <img src="images/phone-icon.png" alt="Phone-icon" class="icons">
+            <a href="tel:+38(066)7-111-999" class="phone"><span>+38(066)</span>7-111-999</a>
+            <a href="tel:+7(499)1-123-224" class="phone"><span>+7(499)</span>1-123-224</a>
+            <span class="networks">(WhatsApp, Viber, Telegramm)</span><br>
+            <img src="images/mail-icon.png" alt="Mail-icon"class="icons"/>
+            <a href="#" class="mail">info@rideks.ru</a>
+            <p class="social">Мы в социальных сетях:</p>
+
+            <a href="#" class="social-link" id="first"><img src="images/social-link1.png" alt="social-link"></a>
+            <a href="#" class="social-link"><img src="images/social-link2.png" alt="social-link"></a>
+            <a href="#" class="social-link"><img src="images/social-link3.png" alt="social-link"></a>
+            <a href="#" class="social-link"><img src="images/social-link4.png" alt="social-link"></a>
+            <a href="#" class="social-link"><img src="images/social-link5.png" alt="social-link"></a>
+        </div>
+        <div class="send-form">
+            <h2>Оставьте заявку</h2>
+            <span>Мы свяжемся с вами в ближайшее время</span>
+            <form method="post" action="#">
+                <input type="text" name="Your name"placeholder="Ваше имя" class="first-row">
+                <input type="email" name="Your mail" placeholder="Email" class="first-row">
+                <input type="tel" name="Telephone number" placeholder="Номер телефона" class="telephone">
+                <textarea name="text" placeholder="Текст сообщения" rows="5" cols="57"></textarea>
+                <input type="submit" name="submit-btn" value="Отправить" class="submit-btn">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <small>© Rideks.ru, 2017</small>
+            </div>
+        </div>
+    </footer>
+    <script rel="text/javascript" src="contacts-js.js"></script>
+    <script>
+        document.getElementById('pop-up').onclick = function() {
+            document.getElementById('pop-up-wrapper').style.display = 'block';
+            document.getElementById("pop-up-send-form").style.display = "block";
+        };
+        document.getElementById("close").onclick = function() {
+            document.getElementById("pop-up-send-form").style.display = "none";
+            document.getElementById('pop-up-wrapper').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
